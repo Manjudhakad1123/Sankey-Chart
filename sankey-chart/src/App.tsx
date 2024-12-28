@@ -15,8 +15,8 @@ function App() {
     <div>
        <div>
       <h1>{t('welcome')}</h1>
-      <button onClick={() => changeLanguage('en')}>{t('changeLanguage')} (English)</button>
-      <button onClick={() => changeLanguage('es')}>{t('changeLanguage')} (Spanish)</button>
+      <button onClick={() => changeLanguage('en')}>English</button>
+      <button onClick={() => changeLanguage('es')}>Spanish</button>
     </div>
     <SankeyChart data={data} options={options} />
     </div>
